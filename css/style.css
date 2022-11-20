@@ -1,0 +1,160 @@
+#logo {
+  width: 160px;
+}
+
+#list-item {
+  list-style: none;
+}
+
+header li {
+  font-size: 50px;
+}
+
+.Privacy-para {
+  font-weight: bolder;
+  border: solid;
+  border-radius: 10px;
+  background-color: rgb(229, 233, 221);
+  padding: 30px;
+}
+
+.contact-bg {
+  background: url(../img/telephone-1460517_960_720.webp) no-repeat center center;
+}
+
+.card-text {
+  color: black;
+}
+
+.alert-one {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.ml-5,
+.mx-5 {
+  margin-left: 11rem !important;
+}
+
+.my-2 {
+  width: 50%;
+}
+
+.header-form {
+  width: 95%;
+}
+
+.nav-one a {
+  font-weight: bolder;
+  font-size: 100%;
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
+.cards .card {
+  margin: 0;
+}
+
+.cards {
+  margin: 0 auto;
+  min-width: 95%;
+  margin-top: 4%;
+}
+.nav-icon {
+  color: whitesmoke;
+  position: relative;
+  left: 1250%;
+  cursor: pointer;
+}
+
+.nav-wrapper {
+  right: 35%;
+}
+
+.header-form-wrapper {
+  position: absolute;
+  right: 10%;
+}
+
+.products-nav {
+  width: 95%;
+  margin: 1% auto;
+}
+
+@media (max-width: 460px) {
+  #logo {
+    position: static;
+    margin-top: -80px;
+  }
+  .nav-wrapper {
+    position: static;
+  }
+  .header-form-wrapper {
+    position: static;
+  }
+  .cards .card {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 370px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 461px) {
+  #logo {
+    position: static;
+  }
+  .nav-wrapper {
+    position: static;
+  }
+  .header-form-wrapper {
+    position: static;
+  }
+}
+
+@media (max-width: 511px) and (min-width: 500px) {
+  #logo {
+    position: absolute;
+    top: -120px;
+  }
+  .products-nav {
+    margin-left: 4%;
+  }
+}
+
+@media (max-width: 984px) and (min-width: 522px) {
+  .nav-icon {
+    cursor: pointer;
+    left: 25%;
+  }
+  .products-nav {
+    width: 95%;
+    margin: 1% auto;
+    position: relative;
+  }
+}
+
+@media (max-width: 511px) {
+  .nav-icon {
+    cursor: pointer;
+    left: 0%;
+  }
+}
+
+.nav-icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 450px) and (max-width: 570px) {
+  .cards .card {
+    margin: 4% auto;
+    width: 85%;
+  }
+}
+.custom-jumbotron {
+  background: whitesmoke;
+}
+
+.contact-title {
+  font-size: 125%;
+}
